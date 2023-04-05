@@ -1,0 +1,25 @@
+.rate-score {
+    display: flex;
+    justify-content: space-between;
+    width: 196px;
+    height: 18px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+.rate-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.star {
+    width: 24px;
+    height: 24px;
+}
+
+/* format mobile min 500px */
+@media screen and (max-width: 600px) {
+    .rate-score{
+        margin-left: 0;
+    }
+}
