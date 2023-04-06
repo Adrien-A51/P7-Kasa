@@ -30,5 +30,4 @@ function App() {
 </div>
   );
 }
-// ajouter le footer juste avant </div> classname app
 export default App;

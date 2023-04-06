@@ -1,5 +1,4 @@
-
-const log=[
+[
 	{
 		"id": "c67ab8a7",
 		"title": "Appartement cosy",
@@ -25,10 +24,10 @@ const log=[
 			"Frigo",
 			"WIFI"
 		],
-		"tags": {
-			"first": "Batignolle",
-			"second": "Montmartre"
-		}
+		"tags": [
+			"Batignolle",
+			"Montmartre"
+		]
 	},
 	{
 		"id": "b9123946",
@@ -618,4 +617,3 @@ const log=[
 		]
 	}
 ]
-export default log

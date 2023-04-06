@@ -14,7 +14,6 @@ const { Panel } = Collapse;
 export default function Pagelog () {
   const { id } = useParams();
   const log = logements.find((logement) => logement.id === id);
-  console.log(id);
   if (log === undefined || log === null) {
     return <Error />
   }//if
@@ -59,33 +58,3 @@ export default function Pagelog () {
 
   }//Pagelog
 }
-
-/*
-<div className='tags'>{log.tags}</div>
-
-
-export default function Card() {
-    return (
-        <>
-
-    <div>
-      {logements.map((item) => {
-        return (
-            <div>
-            <div key={item.id} to={`/logement/${item.id}`}></div>
-              <h1 className="title">{item.title}</h1>
-              <h2 className="location">{item.location}</h2>
-              <p className="hostname">{item.host.name}</p>
-              <div className="tags">{item.tags}</div>
-              <h3 className="description">{item.description}</h3>
-              <h3 className="equipements">{item.equipments}</h3>
-            </div>
-        );
-      })}
-    </div>
-
-
-        </>
-    )
-}
-*/
