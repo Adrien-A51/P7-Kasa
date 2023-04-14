@@ -7,7 +7,9 @@ Créez une application web de location immobilière avec React. 🖥️
 Étape 1 : Initialisez le projet :
 
 ● L’application React installée et le repository GitHub initialisé.
+
 ● Ajouté le fichier JSON qui contient les données.
+
 ● L’application de démonstration qui se lance dans le navigateur lorsque je tape `npm start` dans le terminal.
 
 
