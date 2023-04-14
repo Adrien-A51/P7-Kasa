@@ -1,11 +1,17 @@
 import './Logement.scss';
 import { useParams } from "react-router-dom";
-// Erreur 404
-import Error from "../../components/Error/Error";
+
 // logements
 import logements from "../../assets/logements.json";
+// Erreur 404
+import Error from "../../components/Error/Error";
+// Carrousel
+import Carrousel from '../../components/Carrousel/Carrousel';
+// Tag
+import Tag from '../../components/Tag/Tag';
 // etoile note
-import Rate from "../../components/Rate/Rate"
+import Rate from "../../components/Rate/Rate";
+
 
 import { Collapse } from 'antd';
 //import Carrousel from '../../components/Carrousel/Carrousel';
