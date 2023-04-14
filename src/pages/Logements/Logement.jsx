@@ -14,7 +14,6 @@ import Rate from "../../components/Rate/Rate";
 
 
 import { Collapse } from 'antd';
-//import Carrousel from '../../components/Carrousel/Carrousel';
 const { Panel } = Collapse;
 
 export default function Pagelog () {
@@ -28,17 +27,18 @@ export default function Pagelog () {
   return (
             <div className="container">
               <div key={log.id} to={`/logement/${log.id}`}></div>
-            <div className='img'>
-              <img src={log.pictures} alt="img" />
-            </div>
+              <Carrousel images={log.pictures}/>
             <div className='flex'>
               <div>
                 <h1 className="title">{log.title}</h1>
                 <h2 className="location">{log.location}</h2>
+
                 <div className="tagContainer">
-                <span className="tagButton">{log.tags.first}</span>
-                <span className="tagButton">{log.tags.second}</span>
-      </div>
+                  {log.tags.map((tag) => (
+                    <Tag key={tag} tag={tag} />
+                  ))}
+                </div>
+
               </div>
 
               <div>
@@ -46,7 +46,7 @@ export default function Pagelog () {
                   <p className='hostname'>{log.host.name}</p>
                   <img className='picture' src={log.host.picture} alt="pict of host" />
                 </div>
-                <Rate/>
+                <Rate rating={log.rating} />
               </div>
 
             </div>

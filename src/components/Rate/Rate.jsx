@@ -1,17 +1,27 @@
+import React from 'react';
 import './Rate.scss'
+import Star_on from '../../assets/images/etoile_rouge.png';
+import Star_off from '../../assets/images/etoile_grise.png';
 
-import Rate_on from '../../assets/images/Rate_on.svg';
-import Rate_off from '../../assets/images/Rate_off.svg';
-
-export default function Rate_stars({ score }) {
-	const stars = [1, 2, 3, 4, 5];
+export default function Rate_score({ rating }) {
+	const Rating_number = [1, 2, 3, 4, 5];
 	return (
 		<div className="rate-score">
-			{stars.map((level) => score >= level ? (
-				<img key={level.toString()} className="star" src={Rate_on} alt="star"/>
-				) : (
-                <img key={level.toString()} className="star" src={Rate_off} alt="star"/>
-				))}
+		{Rating_number.map((el) => rating >= el ? (
+			<img key={el.toString()} src={Star_on} alt="Star_on"/>
+			) : (
+			<img key={el.toString()} src={Star_off} alt="Star_off"/>
+			))}
 		</div>
 	);
-}
+};
+
+
+/* Methode 2 - avec <div> et scss au lieu de <img>
+
+	{totalRating.map((el) => rating >= el ? (
+		<div key={el.toString()} className="star"></div>
+		) : (
+        <div key={el.toString()} className="star"></div>
+	))}
+*/

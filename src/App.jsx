@@ -8,7 +8,7 @@ import Home from './pages/Home/Home';
 // Page Apropos
 import Apropos from "./pages/Apropos/Apropos";
 // Page Logement
-import Logement from "./pages/Logements/Logement"
+import Logements from "./pages/Logements/Logement"
 // Erreur 404
 import Error from "./components/Error/Error";
 // Footer
@@ -22,7 +22,7 @@ function App() {
   <Banner/>
   <Routes>
     <Route path="/" element={<Home/>} />
-    <Route path="/logement/:id" element={<Logement />} />
+    <Route path="/logement/:id" element={<Logements />} />
     <Route path="/Apropos" element={<Apropos />} />
     <Route path="*" element={<Error />} />
   </Routes>

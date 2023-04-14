@@ -64,15 +64,6 @@
     background-color: gray; 
 }
 
-.tags{
-    @include Font; 
-    font-size: 14px;
-    color: #fff;
-    width: 115px;
-    height: 25px;
-    background-color: #FF6060; 
-}
-
 .description{
     @include Font; 
     font-size: 18px;
@@ -81,29 +72,10 @@
 }
 
 
-
 .tagContainer {
     display: flex;
-}
-
-.tagButton {
-    @include Font;
-    font-size: 14px;
-    line-height: 22px;
-    text-align: center;
-    background: #FF6060;
-    color: #fff;
-    height: 25px;
-    width: 115px;
-    border-radius: 5px;
-    margin-right: 10px;
-    padding: 2px 10px 0 10px;
-}
-
-.tags-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 25px;
 }
 
 /* format mobile min 500px */
