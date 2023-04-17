@@ -1,5 +1,4 @@
-# Openclassrooms 
-Projet n°7 - Kasa 🏠
+# Projet n°7 - Kasa 🏠
 
 Créez une application web de location immobilière avec React. 🖥️
 
