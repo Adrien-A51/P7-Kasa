@@ -40,11 +40,3 @@ export default function Apropos() {
     )
     
 }
-/*
-<div className="head">
-</div>
-<div id="dropdown-close"><p>Fiabilité</p></div>
-<div id="dropdown-close"><p>Respect</p></div>
-<div id="dropdown-close"><p>Service</p></div>
-<div id="dropdown-close"><p>Responsabilité</p></div>
-*/

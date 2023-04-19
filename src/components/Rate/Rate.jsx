@@ -15,13 +15,3 @@ export default function Rate_score({ rating }) {
 		</div>
 	);
 };
-
-
-/* Methode 2 - avec <div> et scss au lieu de <img>
-
-	{totalRating.map((el) => rating >= el ? (
-		<div key={el.toString()} className="star"></div>
-		) : (
-        <div key={el.toString()} className="star"></div>
-	))}
-*/
