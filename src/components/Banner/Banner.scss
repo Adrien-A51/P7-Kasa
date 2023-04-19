@@ -5,18 +5,20 @@
     margin: 40px 100px 40px 100px;
     font-family: 'Montserrat';
     font-size: 24px;
-}
-
-nav ul{
-    display: flex;
-    gap: 70px;
-    list-style: none;
-li a{
-    color: #FF6060;
-    text-decoration: none;
-    &:hover{
+    nav{
+        display: flex;
+        gap: 57px;
+        list-style: none;
+    }
+    nav a{
+        color: #FF6060;
+        text-decoration: none;
+    }
+    nav a:hover{
         text-decoration: underline;
     }
+    nav a.active{
+        text-decoration: underline;
     }
 }
 
@@ -30,8 +32,10 @@ li a{
         img{
             width: 145px;
         }
+        nav{
+            margin-top: 18px;
+            gap: 25px;
+        }
     }
-    nav ul{
-        gap: 21px;
-    }
+
 }

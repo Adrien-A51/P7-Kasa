@@ -2,9 +2,7 @@
     width: 100%;
     height: 415px;
     border-radius: 25px;
-}
-
-.carrousel{
+    .carrousel{
     width: 100%;
     height: 415px;
     border-radius: 25px;
@@ -14,7 +12,6 @@
     display: flex;
     position: relative;
     justify-content: space-between;
-
     .f_gauche{
         width: 46px;
         height: 80px;
@@ -50,7 +47,6 @@
     .f_droite_0{
         background: none;
      }
-
     .nbre_img{
         position: relative;
         top: 340px;
@@ -60,5 +56,6 @@
     }
     .nbre_img_0{
         opacity: 0;
+    }
     }
 }

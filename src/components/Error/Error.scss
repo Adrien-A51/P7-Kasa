@@ -1,4 +1,4 @@
-.Err404{
+.Error{
     margin-bottom: 100px;
     text-align: center;
     color: #FF6060;
@@ -23,7 +23,7 @@
 
 /* format mobile min 500px */
 @media screen and (max-width: 600px) {
-    .Err404{
+    .Error{
         margin-top: 200px;
         margin-bottom: 200px;
         h1{
