@@ -30,6 +30,7 @@ export default function Carrousel({ images }) {
                 {setCurrImg(currImg === images.length - 1 ? 0 : currImg + 1)
                 && currImg < images.length - 1 && setCurrImg(currImg + 1);}}>
                 </div>
+                
             </div>
         </div>
     );

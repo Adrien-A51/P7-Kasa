@@ -14,7 +14,7 @@ import Error from "./components/Error/Error";
 // Footer
 import Footer from './components/Footer/Footer';
 
-function App() {
+export default function App() {
   return (
 <div className="App">
   <Banner/>
@@ -28,4 +28,3 @@ function App() {
 </div>
   );
 }
-export default App;
