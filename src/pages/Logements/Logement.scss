@@ -11,6 +11,14 @@
 .container_collapse{
    display: flex;
    gap: 60px;
+.ant-collapse-item{
+    background: #FF6060;
+    width: 1023px;
+    color: white;
+    margin: auto;
+    margin-top: 0;
+    border-radius: 5px;
+}
 }
 
 .container_panel{

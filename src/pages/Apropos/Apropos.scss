@@ -32,14 +32,13 @@
         padding: 10px;
     }
 }
-
-.container p{
+.container{
+    p{
     color: #FF6060;
     font-size: 24px;
     font-weight: 400;
     font-family: 'Montserrat';
 }
-
 .ant-collapse-item{
     @include fond_rouge();
     width: 1023px;
@@ -48,7 +47,7 @@
     margin-bottom: 31px;
     border-radius: 5px;
 }
-
+}
 .ant-collapse-header-text{
     @include Text();
     color: white;
